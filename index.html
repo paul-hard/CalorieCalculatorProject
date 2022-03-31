@@ -5,10 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Meals List</title>
 </head>
 
+
 <body>
+    <div class="wrapper">
+
+        <div class="header">
+            <div class="header__title">
+                <h1>Meals List & Calorie Calculator</h1>
+            </div>
+            <div class="total__calorie">
+                <div id="total">Total = 0</div>
+            </div>
+
+        </div>
+        <div class="page">
+            <div class="page__search">
+                <h2>Add food:</h2>
+                <form id="search__form" action="#">
+                    <label for="search__food">search for food:</label>
+                    <input id="search__food" type="text">
+                    <button id="search__button">Click</button>
+                </form>
+
+                <div class="search__output">
+
+                </div>
+            </div>
+            <div class="page__meals">
+                <div class="meals__header">
+                    <h2>My Meals</h2>
+                </div>
+                <div class="meals__list">
+                    <ul id="list">
+                    </ul>
+                    <button id="btn">show</button>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">pet project</footer>
+    </div>
+
     <script type="module" src="./script.js"></script>
 </body>
 

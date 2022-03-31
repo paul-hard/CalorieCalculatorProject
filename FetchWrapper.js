@@ -30,5 +30,3 @@ export default class FetchWrapper {
         }).then(response => response.json());
     }
 };
-
-export const hi = "hi"
